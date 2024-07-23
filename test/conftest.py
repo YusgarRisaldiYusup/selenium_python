@@ -1,6 +1,8 @@
 import time
 from selenium import webdriver
 import pytest
+from selenium.webdriver.edge.options import Options
+
 from helper.config import *
 from helper.test_qase_management import *
 
@@ -8,7 +10,9 @@ from helper.test_qase_management import *
 @pytest.fixture()
 # melakukan pemanggilan driver dri selenium yg akan dipanggil di test dan hooks
 def open_driver():
-    driver = webdriver.Edge()
+    o = Options()
+    o.add_argument("--headless")
+    driver = webdriver.Edge(options=o)
     driver.implicitly_wait(2)
     return driver
 
