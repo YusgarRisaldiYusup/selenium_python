@@ -1,0 +1,10 @@
+url_web = "https://www.saucedemo.com/"
+username = "standard_user"
+password = "secret_sauce"
+err_password = "test12344"
+lcked_username = "locked_out_user"
+TOKEN_QASE = "618337b3586014d97cb4d86cf9680e065a6b2a8f95bde09ccc8716d3f82888d7"
+api_result_qase_io = "https://api.qase.io/v1/result/"
+PROJECT_CODE_QASE_IO = "TY"
+PROJECT_ID_QASE_IO = "2"
+# https://api.qase.io/v1/result/TY/2
