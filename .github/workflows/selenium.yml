@@ -26,17 +26,17 @@ jobs:
           TOKEN_QASE: ${{ secrets.TOKEN_QASE }}
         run: pytest test/ -v
 
-#      - name: Archive Test Result
-#        uses: actions/upload-artifact@v4
-#        if: always()
-#        with:
-#          name: Report
-#          path: report
-#
-#
-#      - name: Deploy report to Github Pages
-#        if: always()
-#        uses: peaceiris/actions-gh-pages@v3.7.3
-#        with:
-#          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
-#          PUBLISH_DIR: report
+      - name: Archive Test Result
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: Report
+          path: report
+
+
+      - name: Deploy report to Github Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v3.7.3
+        with:
+          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+          PUBLISH_DIR: report
