@@ -25,14 +25,11 @@ pytest  Test/       = run all test
 - .Test/share_step.py               = folder/file to make reusable step
 - .test                           = folder/file to make our test (exp: unit/e2e/integration/etc)
 - pytest.ini                      = folder/file to setting our pytest
-
- ## Slack Report
-  - ![Hasil_running1](msedge_OalUSH1Bts.png)
     
   ## QaseIO Report
-  - ![Hasil_running1](msedge_q4cJUb448u.png)
+  - ![Hasil_running1](msedge_6DIHqytUKc.png)
 
- ## Html(Netlify Deploy) Report
-  - ![Hasil_running1](xEZRRy5zMH.png)
+ ## Html(github page Deploy) Report
+  - ![Hasil_running1](msedge_4RzwWFNVWT.png)
 
 ---
